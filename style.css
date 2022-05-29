@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-weight: 500;
+}
+h1 {
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    height: 1.5rem;
+    border: 2px solid black;
+    padding:5px 300px 5px 5px;
+    font-size: 20px;
+}
+b {
+    font-weight: 500;
+}
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+.nav {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 0;
+}
+.btn {
+    padding: 8px 16px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 black;
+}
+.content-card , .add {
+    margin-top: 25px;
+    border: 3px solid black;
+    padding: 15px;
+}
+.content-card{
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    min-width: 80%;
+    min-height: 45%;
+}
+.add {
+    min-width: 20%;
+    height: 100%;
+    font-size: 35px;
+}
+.left-side {
+    margin-right: 60px;
+    line-height: 2rem;
+    text-align: center;
+}
+.right-side {
+    font-size: 20px;
+    max-width: 45%;
+}
+.like-btn {
+    background-color: #FFD966;
+    font-size: 15px;
+    margin-top: 18px;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+#login {
+    margin-right: 15px;
+    background-color: #2B78E4;
+    color: #fff;
+}
+#id-btn {
+    margin-top: 30px;
+    width: 100% ;
+    background-color: #93C47D;
+    font-size: 20px;
+}
